@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="background">
+<!-- Alligning to center
+1. style="text-align:center"
+2. center
+ -->
+ <center>
+<body>
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attributes.</p>
+
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+
+<button class="btn1" onclick="document.getElementById('myImage').src='/home/thyrmr/Desktop/JS Practice/img/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="" style="width:100px">
+
+<button class="btn2" onclick="document.getElementById('myImage').src='/home/thyrmr/Desktop/JS Practice/img/pic_bulboff.gif'">Turn off the light</button>
+
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='25px'">Click Me!</button>
+
+<div></div> <!-- Helps to separate the buttons after hidden the TEXT-->
+
+<p id="demo2">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo3" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me!</button>
+
+</body>
+</center>
+  <style>
+  .btn1{
+    background-color: #d2c039;
+    border-radius: 10px;
+    /*To remove square box after click on button with radius*/
+    outline-style: none;
+  }
+  .btn2{
+    background-color: #99a7a7;
+    border-radius: 10px;
+    outline-style: none;
+  }
+  .background{
+    background-color: #e2edf7;
+  }
+  </style>
+</html>
