@@ -1,0 +1,36 @@
+#externalId {
+  color: blue;
+  font-family:courier;
+
+}
+.externalClass{
+  font-size:14px;
+  font-style:  italic;
+  background: white;
+}
+
+  .linkcss:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+
+  .linkcss:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+  }
+
+  .linkcss:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+
+  .linkcss:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+  
+}
